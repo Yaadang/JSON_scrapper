@@ -29,13 +29,13 @@ Follow these steps to apply the Terraform configuration:
 2. Navigate to the project directory
 3. Initialize the Terraform workspace:
 
-```bash
-    terraform init
+    ```bash
+        terraform init
 
 4. Apply the configuration:
 
-```bash
-    terraform apply
+    ```bash
+        terraform apply
 
 ![Getting Started](architecture.jpg)
 
