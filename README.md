@@ -26,25 +26,16 @@ Follow these steps to apply the Terraform configuration:
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/yourusername/your-terraform-project.git
-
-2. Navigate to the project directory:
-
-```bash
-
-cd your-terraform-project
-
+2. Navigate to the project directory
 3. Initialize the Terraform workspace:
 
 ```bash
-
-terraform init
+    terraform init
 
 4. Apply the configuration:
 
 ```bash
+    terraform apply
 
-terraform apply
-
+![Getting Started](architecture.jpg)
 
