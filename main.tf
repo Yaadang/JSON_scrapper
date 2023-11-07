@@ -134,7 +134,7 @@ resource "aws_sns_topic" "report_notification"{
 resource "aws_sns_topic_subscription" "email_notification" {
   topic_arn = aws_sns_topic.report_notification.arn
   protocol  = "email"
-  endpoint  = "devang_lamba@hotmail.com" # Change to your desired email address
+  endpoint  = "example@gmail.com" # Change to your desired email address
 }
 resource "aws_lambda_function_event_invoke_config" "email" {
   function_name = aws_lambda_function.jsonParse.arn
